@@ -43,3 +43,9 @@ portfolio-*.png
 *.sln
 *.sw?
 .system_generated/
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+!.env.example

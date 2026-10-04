@@ -16,7 +16,7 @@ export function App() {
       const saved = localStorage.getItem('portfolio-theme');
       if (saved === 'light' || saved === 'dark') return saved;
     }
-    return 'dark';
+    return 'light';
   });
 
   const [terminalOpen, setTerminalOpen] = useState<boolean>(false);
